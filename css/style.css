@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*TABS*/
+.container{
+	width: 800px;
+	height: 720px;
+	position: relative;
+	margin: 50px auto;
+	padding: 10px;
+	border: 1px solid black;
+	background: linear-gradient(to top, #00008B, #ADD8E6 );
+}
+.menu{
+	position: absolute;
+	float: left;
+	margin: 0 auto;
+	margin-right: 5px;
+	width: 150px;
+	height: 25px;
+	padding-top: 10px;
+	text-align: center;
+	list-style: none;
+	border-radius: 5px 5px 0 0;
+}	
+.text{
+	position: absolute;
+	width: 580px;
+	height: 200px;
+	top: 35px;
+	padding: 20px 40px;
+	border-radius: 0 5px 5px 5px;
+	overflow: auto;
+	display: none;
+}
+.menu-item1{
+	left: 60px;
+	top: 80px;
+	background-color: #FFA07A;
+}
+.menu-item2{
+	left: 215px;
+	top: 80px;
+	background-color: #9ACD32;
+}
+.menu-item3{
+	left: 370px;
+    top: 80px;
+    background-color: #DAA520;
+}
+.text1{
+	background: linear-gradient(to top, #B22222, #FFA07A );
+}
+.text2{
+	left: -155px;
+	background: linear-gradient(to top, #006400, #9ACD32 );
+}
+.text3{
+	left: -310px;
+	background: linear-gradient(to top, #D2691E, #DAA520 );
+
+}
+.active{
+	display: block;
+	box-shadow: 5px 10px 15px black;
+	
+}
+.active2{
+	box-shadow: 5px 10px 10px black;
+}
+/*FORM*/
+form{
+	position: absolute;
+	top: 385px;
+    left: 60px;
+	height: 300px;
+	width: 640px;
+	padding: 10px;
+}
+fieldset{
+	border: none;
+	width: 620px;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+fieldset>div{
+	margin-bottom: 30px;
+}
+input{
+	height: 30px;
+	width: 235px;
+}
+label{
+	color: white;
+	font-size: 20px;
+}
+#firstName{
+	margin-left: 30px;
+}
+#lastName{
+	margin-left: 32px;
+}
+#email{
+	margin-left: 65px;
+}
+input[type="button"]{
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+}
+.help{
+	display: none;
+
+	position: absolute;
+	border-radius: 5px;
+	background: lightgrey;
+	box-shadow: 0 0 10px lightgrey;
+}
+.help1{
+    height: 45px;
+    top: 10px;
+    right: 85px;
+    padding: 5px;
+}
+.help2{
+    height: 45px;
+    top: 70px;
+    right: 87px;
+	padding: 5px;
+}
+.help3{
+    height: 45px;
+    top: 130px;
+    right: 69px;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
