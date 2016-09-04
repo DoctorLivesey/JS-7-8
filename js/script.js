@@ -36,19 +36,18 @@
 	  	opacity: 0
 	  },10000,
 	  function(){
-	  	$('.help').css('display', 'none');
+	  	$('.help').css({
+	  		display: 'none',
+	  		opacity: 1
+	  	});
 	  });
 	});
 	var $input = $('.field');
 	$input.hover(function(){
-	  $(this).siblings('.help').css('display', 'inline-block');
+	  $(this).siblings('.help').css('display','inline-block');
 	},function(){
-	  $(this).siblings('.help').animate({
-		opacity: 0
-	  },10000,
-	  function(){
-	    $(this).siblings('.help').css('display', 'none');
+	  $(this).siblings('.help').css('display','none');
 	  });
-	});
 });
+
         

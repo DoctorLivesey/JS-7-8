@@ -91,6 +91,12 @@ fieldset>div{
 input{
 	height: 30px;
 	width: 235px;
+	border-radius: 10px;
+	background: linear-gradient(to bottom, #808080 10% , #fff );
+}
+input:focus{
+	background: linear-gradient(to top, #C0C0C0 , #fff );
+	box-shadow: inset 1px 1px 5px #00008B;
 }
 label{
 	color: white;
@@ -109,6 +115,7 @@ input[type="button"]{
 	display: block;
 	width: 150px;
 	margin: 0 auto;
+	border-radius: 5px;
 }
 .help{
 	display: none;
